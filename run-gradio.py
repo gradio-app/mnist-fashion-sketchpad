@@ -3,7 +3,7 @@ import gradio as gr
 from gradio.inputs import Sketchpad
 from gradio.outputs import Label
 
-mnist_model = tf.keras.models.load_model('models/mnist-fashion-model.h5')
+mnist_model = tf.keras.models.load_model('mnist-fashion-model.h5')
 
 class_names = ['T-shirt', 'Trouser', 'Pullover', 'Dress', 'Coat', 
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
