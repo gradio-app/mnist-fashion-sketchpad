@@ -1,1 +1,1 @@
-# real-time-mnist-fashion
+# MNIST Fashion Sketchpad
